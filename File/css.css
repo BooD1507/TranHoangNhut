@@ -1,0 +1,577 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin: 0px;
+padding: 0px;
+}
+body{
+	font-family: "Helvetica";
+}
+html{
+	scroll-behavior: smooth;
+}
+.header{
+	height: 100%;
+	width: 12%;
+	background: url( ../Anh/1x/backgrounddd23-100.jpg);
+	background-repeat:repeat-x;
+	background-size:cover;
+	background-position:top;
+	background-attachment: scroll;
+	float: left;
+	position: fixed;
+	z-index: 1000;
+	
+}
+.logo{
+	width: 100%;
+	height: auto;
+	padding:0px;
+/*	background-color: black;*/
+	
+}
+.logo:hover{
+}
+.header .logo img { ;
+	width: 100%;
+	
+}
+.menu{
+	text-align: center;
+	padding: 2% ;
+}
+
+.header .menu ul li {
+	border-bottom: solid 1px rgba(194,194,194,1.00);
+	padding: 10% 0%;
+	color: white;
+}
+.header .menu ul li:hover { 
+	background-color:rgba(201,201,201,1.00);
+	color: rgba(35,35,35,1.00);
+	
+}
+.header .menu ul li a{
+	font-size: 1.4em;
+	text-decoration: none;
+	color: white;
+}
+.icon{
+	text-align: center;
+	padding-top: 200px;
+}
+.icon a{
+	font-size: 1.6em;
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+/*Blog*/
+
+
+section{
+	width: 88%;
+	height: auto;
+	float:right;
+}
+.main{
+	width: 100%;
+	height: auto;
+	
+	background: url( ../Anh/1x/backgrounddd23-100.jpg);
+/*	background-repeat:repeat;*/
+	background-size: cover;
+	background-attachment: scroll;
+/*	position: absolute;*/
+	
+}
+.main nav {
+	padding-top: 5% ;
+}
+.main .banner{ 
+	width: 100%;
+	height: 80vh;
+	
+	position: relative;
+	
+/*	background-color:rgba(29,29,29,1.00);*/
+/*	position:absolute;*/
+/*
+	background: url( ../Anh/_MG_8927.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+*/
+
+}
+.main .banner .text {
+/*	margin: 15% 0 0 10%;*/
+	margin-top: 15%;
+	margin-left: 10%;
+	position: absolute;
+	z-index: 2;
+	color: white;
+	border: 1px solid rgba(255,255,255,1.00);
+}
+.main .banner .backhead {
+	width: 70%;
+	height:auto;
+	right: 0;
+	top:0;
+	position: absolute;
+	background-color:rgba(65,65,65,0.00);
+}
+.main .banner .backhead img{
+	width: 100%;
+	height: auto;
+}
+.main .banner .text h1{
+	font-size: 4em;
+	text-align: center;
+
+	border-bottom: 3px solid rgba(255,255,255,1.00) ;
+	padding-bottom: 5%;
+}.main .banner .text h2{
+	padding-top: 5%;
+	
+}
+.main .banner .text div{
+	right: 3%;
+	bottom: 5%;
+	position: absolute;
+	background-color: rgba(255,255,255,1.00);
+	padding: 2%;
+	
+}
+.main .banner .text div a{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00)
+}
+.main .banner .text { 
+	padding: 1%;
+	
+}
+
+/*BLOG*/
+
+.kynang{ 
+	width: 85%;
+	height: 80vh;
+	 
+}
+.main .kynang h1 {
+	text-transform:capitalize;
+	font-size: 4em;
+	text-align: center;
+	color: white;
+	padding-bottom: 2%;
+
+}
+.main .kynang .flexkt { 
+	display: flex;
+	margin-left: 10%;
+}
+
+.main .kynang .flexkt .knt1 {
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+}
+.main .kynang .flexkt .knt1 img{
+	text-align:  center;
+	width: auto;
+	height: 100%;
+}
+.main .kynang .flexkt .knt2 {
+	width: 75%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	border: solid 2px rgba(255,255,255,1.00);
+}
+.main .kynang .flexkt .knt2 .phantram {
+	width: 80%;
+	height: 100%;
+	background-color: rgba(1,117,188,1.00);
+	
+}
+.main .kynang .flexkt .knt3 {
+	font-size: 1.5em;
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	color: white;
+}
+
+/*kn2*/
+.main .kynang .flexkt2 { 
+	display: flex;
+	margin-left: 10%;
+}
+
+.main .kynang .flexkt2 .knt1 {
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+}
+.main .kynang .flexkt2 .knt1 img{
+	text-align:  center;
+	width: auto;
+	height: 100%;
+}
+.main .kynang .flexkt2 .knt2 {
+	width: 75%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	border: solid 2px rgba(255,255,255,1.00);
+}
+.main .kynang .flexkt2 .knt2 .phantram {
+	width: 65%;
+	height: 100%;
+	background-color:rgba(243,102,35,1.00);
+	
+}
+.main .kynang .flexkt2 .knt3 {
+	font-size: 1.5em;
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	color: white;
+}
+/*kn3*/
+.main .kynang .flexkt3 { 
+	display: flex;
+	margin-left: 10%;
+}
+
+.main .kynang .flexkt3 .knt1 {
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+}
+.main .kynang .flexkt3 .knt1 img{
+	text-align:  center;
+	width: auto;
+	height: 100%;
+}
+.main .kynang .flexkt3 .knt2 {
+	width: 75%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	border: solid 2px rgba(255,255,255,1.00);
+}
+.main .kynang .flexkt3 .knt2 .phantram {
+	width: 60%;
+	height: 100%;
+	background-color:rgba(175,109,215,1.00);
+	
+}
+.main .kynang .flexkt3 .knt3 {
+	font-size: 1.5em;
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	color: white;
+}
+/*kn4*/
+.main .kynang .flexkt4 { 
+	display: flex;
+	margin-left: 10%;
+}
+
+.main .kynang .flexkt4 .knt1 {
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+}
+.main .kynang .flexkt4 .knt1 img{
+	text-align:  center;
+	width: auto;
+	height: 100%;
+}
+.main .kynang .flexkt4 .knt2 {
+	width: 75%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	border: solid 2px rgba(255,255,255,1.00);
+}
+.main .kynang .flexkt4 .knt2 .phantram {
+	width: 50%;
+	height: 100%;
+	background-color:rgba(180,38,176,1.00);
+	
+}
+.main .kynang .flexkt4 .knt3 {
+	font-size: 1.5em;
+	width: 10%;
+	height: 50px;
+/*	background-color: black;*/
+	margin: 5px;
+	color: white;
+}
+
+/*sanpham*/
+.main .sanpham {
+	max-width: 100%;
+	height:auto;
+	padding: 0px 0px 50px 0px;
+	
+	margin: 0;
+	
+}
+.main .sanpham h1{
+	text-align: center;
+	font-size: 4em;
+	color: white;
+	margin: 0;
+	padding-top: 5%;
+/*	padding: 0;*/
+}
+.main .sanpham .noibat {
+	max-width: 100%;
+	height:300vh;
+	margin: 0% 10%;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	justify-content: center;
+	
+	
+}
+.main .sanpham .noibat .anh {
+	width: 35%;
+	height: auto;
+	background-color:rgba(0,0,0,0.20);
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	padding: 10px 5px;
+	margin: 2%;
+	
+}
+.main .sanpham .noibat .anh {
+	
+	
+}
+.main .sanpham .noibat .anh .s1{
+	
+	
+}
+
+.main .sanpham .noibat .anh .s2{
+	
+	
+	
+}
+.main .sanpham .noibat .anh .s3{
+	
+}
+.main .sanpham .noibat .anh .s4{
+	
+	
+}
+.main .sanpham .noibat .anh img{
+	width: 100%;
+	height: auto;
+	
+}
+.main .sanpham .noibat .anh  h2{
+	font-size: 1.8em;
+	text-align: center;
+	color: white;
+}
+
+/*anhcu*/
+
+.main .sanpham .binhthuong{
+	max-width: 100%;
+	height:auto;
+	margin: 0% 10%;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content: center;
+}
+.main .sanpham .binhthuong .anhcu{
+	width: auto;
+	height: 50vh;
+	margin-top: 50px ;
+	margin-right: 25px;
+	
+	border-bottom: solid 2px white;
+	border-right: solid 2px white;
+	
+}
+.main .sanpham .binhthuong .anhcu img{
+	width:auto;
+	height: 100%;
+	
+}
+.main .sanpham .binhthuong .anhcu h2{
+	background-color: rgba(0,0,0,0.40);
+	color: white;
+	padding: 5px;
+	border-bottom: solid 2px white;
+}
+/*cuoicung*/
+.main .cuoicung{
+	width: 100%;
+	height: auto;
+	magin: 15% 10%;
+	padding-bottom: 0;
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+	justify-content:flex-start;
+	
+	
+}
+.main .cuoicung .foodtrai{
+	width: 10%;
+	height: 100%;
+	margin-left: 10%;
+}
+.main .cuoicung .foodtrai img{
+	width:70%;
+	height: auto;
+}
+
+.main .cuoicung .foodphai{
+	
+	padding-top: 1%;
+	justify-content:center;
+}
+.main .cuoicung .foodphai h2{
+	text-align: center;
+	color: white;
+	padding: 2px;
+	border-top: solid 2px white;
+	
+}
+.main .cuoicung .foodphai h1{
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	font-size: 2em;
+	color: white;
+	padding: 2px;
+	border-bottom: solid 2px white;
+}
+
+/*thongtin*/
+
+
+.main .banner .thongtin {
+	width: 60%;
+	height: auto;
+	left: 0;
+	top:0;
+	position: absolute;
+/*	background-color: wheat;*/
+	border: solid 7px rgba(206,206,206,1.00);
+	display: flex;
+	flex-direction: row;
+	z-index: 10;
+	padding: 5px;
+	margin-left: 10%;
+	overflow: hidden;
+	transition: all 1s;
+}
+.main .banner .thongtin .canhan{
+	width: 70%;
+	height: 100%;
+	background-color:rgba(0,14,52,0.87);
+	overflow: hidden;
+}
+.main .banner .thongtin .canhan .daux a{
+	text-align: center;
+	width: 5%;
+	height: 2%;
+	font-size: 2em;
+	text-decoration: none;
+	background-color:rgba(255,162,24,1.00);
+	padding: 0px 18px;
+	color:rgba(6,1,51,1.00);
+	overflow: hidden;
+}
+.main .banner .thongtin .canhan .texta{
+	width: 80%;
+	height: 80%;
+	margin: 5%;
+	overflow: hidden;
+/*	background-color: aqua;*/
+}
+.main .banner .thongtin .canhan .texta h1{
+	font-size: 3.5em;
+	color: antiquewhite;
+	
+}
+.main .banner .thongtin .canhan .texta h2{
+	color: antiquewhite;
+	margin-top: 4%;
+	font-size: 1.2em;
+}
+.main .banner .thongtin .anhpro{
+/*	background-color: red;*/
+	max-width:35%;
+	height: auto;
+}
+.main .banner .thongtin .anhpro img{
+/*	background-color: red;*/
+	width: 100%;	
+	height:auto;
+}
+
+@media screen and (max-width:500px){
+	.main .banner .thongtin .canhan .texta h1{
+	font-size: 1.7em;
+	color: antiquewhite;
+	
+}
+.main .banner .thongtin .canhan .texta h2{
+	color: antiquewhite;
+	margin-top: 4%;
+	font-size: 0.8em;
+}
+	.main .cuoicung .foodtrai img{
+	overflow: hidden;
+}
+	.main .sanpham .noibat .anh {
+	width: 100%;
+	height: auto;
+	background-color:rgba(0,0,0,0.20);
+	border-top: solid 2px white;
+	border-bottom: solid 2px white;
+	padding: 10px 5px;
+	margin: 2%;
+	
+}
+	.main .sanpham .noibat {
+	max-width: 100%;
+	height:auto;
+	margin: 0% 10%;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	justify-content: center;
+	
+	
+}
+	
+}
+	
